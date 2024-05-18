@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+
+#home {
+  height: 100vh;
+}
+#about {
+  height: 100vh;
+}
+#book {
+  height : 100vh;
+  padding-top: 200px;
+  margin-top: 200px;
+}
+
+.tabs-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; /* Ensure it's above other content */
+  background-color: white; /* Adjust as needed */
+}
+
+.content {
+  padding-top: 100px; /* Adjust the value as needed to create space for the fixed tab container */
+}
+
+
+.opq {
+  opacity:0;
+}
+
+.rem_opq {
+  opacity:1;
+}
+
+
